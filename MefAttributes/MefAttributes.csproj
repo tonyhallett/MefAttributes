@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Tony Hallett</Authors>
+    <Description>Some MEF attributes</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/tonyhallett/ExtendedRegistrationBuilder.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/tonyhallett/ExtendedRegistrationBuilder</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>MEF;Attribute</PackageTags>
+    <Title>Extended Registration Builder</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Composition.AttributedModel" Version="5.0.1" />
+  </ItemGroup>
+
+</Project>
